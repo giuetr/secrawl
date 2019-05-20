@@ -1,12 +1,12 @@
 # -*- coding:utf-8 -*-
 import time
-from crawler import SecCrawler
+from secrawl import secrawl
 
 
 def test():
     t1 = time.time()
     # file containig company name and corresponding cik codes
-    seccrawler = SecCrawler()
+    seccrawler = secrawl()
 
     company_code_list = list()   # company code list
     cik_list = list()            # cik code list
