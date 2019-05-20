@@ -8,15 +8,10 @@ SEC-Edgar-Crawler
 
 Installation
 ------------- 
- You may have to install the package using pip.
- ```bash
- $ pip install SECEdgar
- ```
- or
 
  You can clone the project or download it as zip.
  ```bash
- $ git clone https://github.com/rahulrrixe/SEC-Edgar.git
+ $ git clone https://github.com/giuetr/secrawl.git
  $ cd SEC-Edgar
  $ python setup.py install
  ```
@@ -66,11 +61,10 @@ if __name__ == '__main__':
 
 Supported Methods
 -----------------
-Currently this cralwer supports only 4 filings 
+Currently this cralwer supports 2 types of filings:
 *  10-K
 *  10-Q
-*   8-K
-*  13-F
+
 
 
 I have maintained a list of companies with their cik code and the file can be downlaoded from [here][2].
