@@ -3,8 +3,8 @@
 SEC-Edgar-Crawler
 =============
 
- Getting filings of various comapanies at once is really a pain but SEC-Edgar-Crawler does that for you.
- you can Download all companies  periodic reports, filings and forms from EDGAR database in a single command.
+A simple crawler that parses two classes of corporate filings from EDGAR database: 10Qs & 10Ks.
+An easy-to-use starting point to implement different analysis routines including sentiment analysis, textual analysis and other parsing methods.
 
 Installation
 ------------- 
@@ -61,17 +61,9 @@ if __name__ == '__main__':
 
 Supported Methods
 -----------------
-Currently this cralwer supports 2 types of filings:
+Currently this crawler parses 2 classes of filings:
 *  10-K
 *  10-Q
 
 
-
-I have maintained a list of companies with their cik code and the file can be downlaoded from [here][2].
-
-[1]: https://github.com/rahulrrixe/SEC-Edgar/blob/master/SECEdgar/data.txt
-[2]: https://github.com/rahulrrixe/SEC-Edgar/blob/master/SECEdgar/companylist.txt
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rahulrrixe/sec-edgar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
